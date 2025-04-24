@@ -46,7 +46,7 @@ docker build --build-arg SCRAPE_URL=https://example.com -t web-scrape-app .
 # 🚀 Run the Container
 
     docker run -p 5000:5000 web-scrape-app
-    ![staticwebsite](output1.png)
+    ![staticwebsite](https://github.com/Archana-DevOps05/puppeteer_chromium_Devops_project/blob/master/output1.png)
 
 
 Open your browser and visit:
