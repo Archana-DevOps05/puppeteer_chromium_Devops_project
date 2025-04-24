@@ -43,9 +43,10 @@ You can build the image by passing a URL you want to scrape using a build argume
 ```bash
 docker build --build-arg SCRAPE_URL=https://example.com -t web-scrape-app .
 
-# 🚀 Run the Container
+## 🚀 Run the Container
 
     docker run -p 5000:5000 web-scrape-app
+
     ![staticwebsite](https://github.com/Archana-DevOps05/puppeteer_chromium_Devops_project/blob/master/output1.png)
 
 
