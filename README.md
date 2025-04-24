@@ -18,6 +18,12 @@ This project demonstrates the use of **Node.js with Puppeteer and Chromium** for
 ## 🧰 Prerequisites
 
 - Docker installed on your system
+-  sudo apt update
+    sudo apt install docker.io
+
+##### Change the Permission
+    sudo usermod -aG docker $USER
+
 
 ---
 ## 📁 Project Structure
@@ -37,3 +43,12 @@ You can build the image by passing a URL you want to scrape using a build argume
 ```bash
 docker build --build-arg SCRAPE_URL=https://example.com -t web-scrape-app .
 
+# 🚀 Run the Container
+
+    docker run -p 5000:5000 web-scrape-app
+  
+![output1](https://github.com/user-attachments/assets/efed41a8-2c88-4014-957b-bab7a02e32da)
+
+Open your browser and visit:
+
+http://your-server-ip:5000
