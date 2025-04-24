@@ -47,8 +47,10 @@ docker build --build-arg SCRAPE_URL=https://example.com -t web-scrape-app .
 
     docker run -p 5000:5000 web-scrape-app
   
-![output1](https://github.com/user-attachments/assets/efed41a8-2c88-4014-957b-bab7a02e32da)
+  ![output1](https://github.com/user-attachments/assets/e24a70a7-d8fa-4d7d-a796-b39a366fc855)
+
 
 Open your browser and visit:
 
 http://your-server-ip:5000
+![output2](https://github.com/user-attachments/assets/8ab83a66-d14e-4e26-9f6d-e3cb65d424e3)
